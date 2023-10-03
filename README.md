@@ -14,8 +14,10 @@
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
+  - [Database Setup](#database-setup)
     - [Usage](#usage)
     - [Deployment](#deployment)
+  - [Kanban board](#kanban-board)
   - [👥 Authors ](#-authors-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
@@ -73,27 +75,19 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
-  sudo apt install ruby-full
-```
- -->
+- Ruby (version 3.2.2)
+- Ruby on Rails (version 7.0.0)
+- Git
 
 ### Setup
 
 Clone this repository to your desired folder:
 
 Example commands
+ - git clone https://github.com/Kaghenimbale/car_collection
+ - cd my-folder
+ 
 
-```sh
-  cd my-folder
-  git clone https://github.com/Kaghenimbale/car_collection
-
-```
 
 ### Install
 
@@ -102,19 +96,22 @@ Install this project with:
 Example command:
 
 ```sh
-  cd  car_collection
   bundle install
   npm install
 ```
+## Database Setup
+
+Follow these steps to create, migrate, and seed your database:
+
+- rails db:create
+- rails db:migrate
+- rails db:seed
 
 ### Usage
 
-To run the project, execute the following command:
-
-```sh
+To running the server:
   npm run build
   rails s
-```
 
 To run the back end run this command in the terminal
 
@@ -131,6 +128,10 @@ Coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Kanban Board <a name="kanban-board"></a>
+- [Kanban Board](https://github.com/users/Kaghenimbale/projects/8)
+- [Kanban's Board initial state](https://github.com/Kaghenimbale/car_collection/issues/12)
+- Team members: 4
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
